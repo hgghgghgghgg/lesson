@@ -1,0 +1,49 @@
+
+body {
+    background-color: #b6d554;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 225px;
+    background-color: #ffffff;
+}
+
+.people-information {
+    margin-top: 30px;
+}
+
+#nickname {
+    display: block;
+    width: 280px;
+    height: 35px;
+    border: 1px solid #909090;
+    padding-left: 10px;
+}
+
+#password {
+    display: block;
+    width: 280px;
+    height: 35px;
+    border: 1px solid #909090;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.button-send-form {
+    display: block;
+    width: 280px;
+    height: 35px;
+    border: 1px solid #909090;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 1.01rem;
+}
