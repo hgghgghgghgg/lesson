@@ -46,3 +46,42 @@ table {
 body {
     background-color: #fafafa;
 }
+
+.container {
+    width: 900px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.price {
+    width: 410px;
+    height: 25px;
+    border: 1px solid #f4f4f4;
+}
+
+.price__img-cofee {
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
+.price__headline {
+    display: inline-block;
+    font-family: Roboto;
+}
+
+.price__row {
+    display: inlne-block;
+}
+
+.price__price {
+    display: inline-block;
+    /* margin-left: 50px; */
+    float: right;
+    margin-right: 15px;
+    font-weight: 500;
+    font-family: Roboto;
+}
