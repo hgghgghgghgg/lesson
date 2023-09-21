@@ -85,3 +85,28 @@ body {
     font-weight: 500;
     font-family: Roboto;
 }
+
+.path-to-page {
+    margin-top: 25px;
+    font-family: Roboto;
+    font-size: 0.65rem;
+}
+
+.path-to-page__path {
+    display: inline-block;
+}
+
+.path-to-page__information {
+    opacity: 0.90;
+    font-weight: 300;
+}
+
+.path-to-page__shipping {
+    opacity: 1;
+    font-size: 1.01;
+    font-weight: 600;
+}
+
+.path-to-page__payment {
+    opacity: 0.4;
+}
