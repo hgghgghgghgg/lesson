@@ -1,0 +1,96 @@
+
+body {
+    background-color: #18326d;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 1000px;
+    height: 600px;
+    background-color: #2b417a;
+    box-shadow: 5px 5px 2px 1.5px #11234d;
+}
+
+.div-bio {
+    display: block;
+    margin-left: 175px;
+    margin-top: 30px;
+}
+
+.label {
+    color: #6985ce;
+}
+
+input {
+    background-color: #182a50;
+    border: 1px solid #182a50;
+    color: #ffffff;
+    margin-left: 10px; 
+    outline: none;
+}
+
+.label {
+    font-size: 1.3rem;
+}
+
+#email,
+#firstname {
+    width: 400px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+.surname-label {
+    margin-left: -24px;
+}
+
+.comment-label {
+    margin-left: -31px;
+    padding-top: -50px;
+    position: absolute;
+}
+
+input[id="surname"] {
+    height: 25px;
+    width: 400px;
+    margin-left: 5px;
+}
+
+textarea[id="comment"] {
+    height: 100px;
+    width: 400px;
+    margin-left: 60px;
+    background-color: #182a50;
+    resize: none;
+    border: 1px solid #182a50;
+    outline: none;
+    color: #ffffff;
+}
+
+input[id="comment"]::placeholder {
+    margin-top: -35px;
+    margin-left: 5px;
+    position: absolute;
+}
+
+input[id="firstname"]::placeholder,
+input[id="surname"]::placeholder,
+input[id="email"]::placeholder {
+    position: absolute;
+    margin-left: 5px;
+}
+
+.send-bio {
+    background-color: #0d1321;
+    color: #6c81ba;
+    margin-left: 235px;
+    margin-top: 25px;
+    width: 150px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
